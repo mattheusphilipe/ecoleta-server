@@ -13,6 +13,7 @@ export async function up(knex: Knex) {
         table.string('street').notNullable();
         table.string('zip_code').notNullable();
         table.integer('addressNumber').notNullable();
+        table.string('neighborhood').notNullable();
         table.decimal('longitude').notNullable();
         table.decimal('latitude').notNullable();
     });

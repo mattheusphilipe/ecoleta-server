@@ -88,6 +88,7 @@ class PointerController {
             city,
             street,
             zip_code,
+            neighborhood,
             addressNumber,
             latitude,
             longitude,
@@ -128,9 +129,10 @@ class PointerController {
                      email,
                      UF,
                      city,
-                     street,
+                     street: street || '',
                      zip_code,
-                     addressNumber,
+                     addressNumber:addressNumber || '',
+                     neighborhood:neighborhood || '',
                     latitude,
                      longitude
                  };
