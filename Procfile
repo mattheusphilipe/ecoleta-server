@@ -1,1 +1,1 @@
-web: yarn startgit status
+web: yarn knex:migrate && yarn knex:seed && yarn dev  
